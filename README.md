@@ -1,5 +1,7 @@
 # Movie Recommendation System
 
+![Demo](demo.jpg)
+
 ## Importance of Recommendation Systems
 
 Recommendation systems play a vital role in enhancing user experience and engagement across various platforms. In the entertainment industry, such as movie streaming platforms, recommendation systems help users discover new content that aligns with their preferences, leading to increased user satisfaction and retention.
@@ -16,7 +18,7 @@ A content-based recommendation system suggests movies to users based on the simi
 
 ### Data Collection and Preprocessing:
 
-- Gathered data from the TMDB (The Movie Database) dataset, including movie details like genres, keywords, cast, crew, etc.
+- Gathered data from the [TMDB (The Movie Database) dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata), including movie details like genres, keywords, cast, crew, etc.
 - Preprocessed the data by extracting relevant features and cleaning the text data.
 
 ### Feature Vectorization:
@@ -33,6 +35,12 @@ A content-based recommendation system suggests movies to users based on the simi
 - Ranked movies based on their similarity scores and recommended the top-ranked movies to the user.
 
 ## Dataset
+
+The dataset used for this project can be found [here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata). It includes two CSV files:
+
+- movies.csv: Contains movie details like budget, genres, keywords, cast, crew, etc.
+- credits.csv: Contains movie credits information including movie_id, title, cast, and crew.
+
 
 The dataset used for this project includes two CSV files:
 
